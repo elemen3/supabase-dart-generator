@@ -1,0 +1,20 @@
+name: supabase_dart_generator
+description: Code generator for supabase.
+homepage: https://github.com/elemen3
+version: 0.0.1
+repository: https://github.com/elemen3/supabase-dart-generator
+
+environment:
+  sdk: '>=2.16.0 <3.0.0'
+
+
+dependencies:
+  path: ^1.8.1
+
+dev_dependencies:
+  lints: ^1.0.0
+  test: ^1.16.0
+
+
+executables:
+  supabase-dart-generator: supabase_dart_generator
